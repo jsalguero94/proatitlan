@@ -28,7 +28,7 @@ namespace ProyectoProAtitlan
         {
             //Cef.Shutdown();
            // this.webBrowser1.
-            Form1 n = new Form1();
+            Login n = new Login();
             n.Show();
             this.Close();
         }

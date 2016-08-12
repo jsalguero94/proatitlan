@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace ProyectoProAtitlan
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
         Point FormPosition;
         Boolean mouseAction;
-        public Form1()
+        public Login()
         {
             InitializeComponent();
         }
@@ -59,7 +59,12 @@ namespace ProyectoProAtitlan
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            if(MessageBox.Show("Desea salir del programa", "Advertencia", MessageBoxButtons.OKCancel)==DialogResult.OK)
+
+            {
+                Application.Exit();
+            }
+            
         }
 
         private void label1_Click(object sender, EventArgs e)

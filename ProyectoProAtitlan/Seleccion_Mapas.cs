@@ -29,9 +29,16 @@ namespace ProyectoProAtitlan
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Form1 n = new Form1();
+            Login n = new Login();
             n.Show();
             this.Close();
         }
-    }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Login n = new Login();
+            n.Show();
+            this.Close();
+        }
+        }
 }
